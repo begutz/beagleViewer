@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(222, 233, 223);
+}
+
+.add-doggo {
+  background-color: rgb(220, 20, 143);
+  color: rgb(211, 204, 191);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .add-doggo {
+    width: 99%;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .add-doggo {
+    width: 95%;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    font-size: 20px;
+  }
+}
+
+.doggos {
+  padding-top: 50px;
+}
